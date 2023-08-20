@@ -1,0 +1,15 @@
+$backgroundColor: #F8F3F4;
+$markTextColor:#F16D7F;
+$widthProductDesc:1141px;
+$markColor:#F16D7F;
+
+@mixin font-shared() {
+    font-style: normal;
+    line-height: normal;
+}
+
+@mixin flex-shared() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
